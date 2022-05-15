@@ -32,10 +32,10 @@ export class SigninComponent implements OnInit {
     console.log(err);
     if(err instanceof HttpErrorResponse){
       if(err.status == 400){
-        this.notifyService.error("This is warning..!")
+        this.notifyService.error("Incorrect credentials")
       }
       else if(err.status == 500){
-        this.notifyService.warning("Something is wrong..!")
+        this.notifyService.warning("Oops!Something went wrong..!")
       // alert(err);
     }
   }

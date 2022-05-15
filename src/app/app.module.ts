@@ -21,6 +21,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { EquipmentsModule } from './equipments/equipments.module';
 import { StorageModule } from './storage/storage.module';
 import { ContractFarmingModule } from './contract-farming/contract-farming.module';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ContractFarmingModule } from './contract-farming/contract-farming.modul
     EquipmentsModule,
     StorageModule,
     ContractFarmingModule,
+    NgxPaginationModule,
     ToastrModule.forRoot()
   ],
   

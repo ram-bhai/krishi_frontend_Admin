@@ -5,17 +5,20 @@ import { EquipmentsRoutingModule } from './equipments-routing.module';
 import { ViewEquipmentsComponent } from './view-equipments/view-equipments.component';
 import { AddequipmentComponent } from './addequipment/addequipment.component';
 import { OrdersComponent } from './orders/orders.component';
-
+import { EquipmentInfoComponent } from './equipment-info/equipment-info.component';
 
 @NgModule({
   declarations: [
     ViewEquipmentsComponent,
     AddequipmentComponent,
-    OrdersComponent
+    OrdersComponent,
+    EquipmentInfoComponent
   ],
   imports: [
     CommonModule,
-    EquipmentsRoutingModule
+    EquipmentsRoutingModule,
+  
+   
   ]
 })
 export class EquipmentsModule { }
